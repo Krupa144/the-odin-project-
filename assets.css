@@ -1,0 +1,228 @@
+body {
+  background: linear-gradient(
+    #1f2937 0%,
+    #1f2937 33%,
+    white 33%,
+    white 66%,
+    grey 66%,
+    grey 100%
+  );
+  height: 100vh;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  right: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  padding: 20px;
+}
+
+.text {
+  width: 50%;
+  text-align: left;
+  height: 24px;
+  color: #f9f9f8;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.text.right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+.text.right div {
+  margin-left: 20px;
+}
+.huge {
+  position: absolute;
+  top: 80px;
+  left: 16px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  font-size: 48px;
+  color: #f9f9f8;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.small {
+  position: absolute;
+  top: 200px;
+  left: 18px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: center;
+  color: #f9f9f8;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.logo {
+  position: absolute;
+  top: 260px;
+  left: 15px;
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  color: #f9f9f8;
+  height: 30px;
+  width: 100px;
+  background-color: #3882f6;
+  border-radius: 5px;
+}
+.info {
+  position: absolute;
+  top: 350px;
+  left: 400px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.grey.sheet {
+  height: 157px;
+  width: 370px;
+  background-color: grey;
+  position: absolute;
+  top: 100px;
+  left: 875px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.tiles1 {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #3882f6;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 420px;
+  left: 350px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+}
+
+.titles1 {
+  position: absolute;
+  top: 570px;
+  left: 350px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.tiles2 {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #3882f6;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 420px;
+  left: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+}
+.titles2 {
+  position: absolute;
+  top: 570px;
+  left: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.tiles3 {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #3882f6;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 420px;
+  left: 650px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+}
+.titles3 {
+  position: absolute;
+  top: 570px;
+  left: 650px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.tiles4 {
+  border-width: 3px;
+  border-style: solid;
+  border-color: #3882f6;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: 420px;
+  left: 800px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+}
+.titles4 {
+  position: absolute;
+  top: 570px;
+  left: 800px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.thor {
+  position: absolute;
+  top: 750px;
+  left: 250px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 36px;
+  font-style: light italic;
+}
+
+.thor1 {
+  position: absolute;
+  top: 900px;
+  left: 1200px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: flex-start;
+}
