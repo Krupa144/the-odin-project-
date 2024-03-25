@@ -1,13 +1,17 @@
 body {
   background: linear-gradient(
     #1f2937 0%,
-    #1f2937 33%,
-    white 33%,
-    white 66%,
-    grey 66%,
-    grey 100%
+    #1f2937 20%,
+    white 20%,
+    white 45%,
+    #e5e7eb 45%,
+    #e5e7eb 77%,
+    white 77%,
+    white 95%,
+    #1f2937 95%,
+    #1f2937 100%
   );
-  height: 100vh;
+  height: 140vh;
 }
 
 .container {
@@ -207,29 +211,31 @@ body {
 }
 .thor {
   position: absolute;
-  top: 750px;
+  top: 780px;
   left: 250px;
   display: flex;
   text-align: left;
   justify-content: space-between;
   align-items: flex-start;
   font-size: 36px;
-  font-style: light italic;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .thor1 {
   position: absolute;
-  top: 900px;
-  left: 1200px;
+  top: 940px;
+  left: 1100px;
   display: flex;
   text-align: left;
   justify-content: space-between;
   align-items: flex-start;
+  font-size: 20px;
 }
 .calls {
   position: absolute;
-  top: 1140px;
-  left: 580px;
+  top: 1220px;
+  left: 700px;
   display: flex;
   justify-content: first baseline;
   align-items: center;
@@ -239,8 +245,8 @@ body {
 
 .signup {
   position: absolute;
-  top: 1170px;
-  left: 580px;
+  top: 1260px;
+  left: 700px;
   display: flex;
   text-align: left;
   justify-content: space-between;
@@ -251,21 +257,36 @@ body {
 
 .logo1 {
   position: absolute;
-  top: 1150px;
-  left: 1100px;
+  top: 1263px;
+  left: 1200px;
   display: flex;
   text-align: left;
   justify-content: space-between;
   align-items: flex-start;
   color: white;
-  font-size: 15px;
 }
 .blue {
   position: absolute;
-  top: 1100px;
+  top: 1200px;
   left: 550px;
   background-color: #3882f6;
-  height: 100px;
-  width: 700px;
+  height: 130px;
+  width: 800px;
   border-radius: 5px;
+}
+
+.pic1 {
+  border-width: 3px;
+  border-style: solid;
+  border-color: white;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 1256px;
+  left: 1170px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
 }
