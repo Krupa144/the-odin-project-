@@ -226,3 +226,46 @@ body {
   justify-content: space-between;
   align-items: flex-start;
 }
+.calls {
+  position: absolute;
+  top: 1140px;
+  left: 580px;
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+}
+
+.signup {
+  position: absolute;
+  top: 1170px;
+  left: 580px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+  font-size: 15px;
+}
+
+.logo1 {
+  position: absolute;
+  top: 1150px;
+  left: 1100px;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+  font-size: 15px;
+}
+.blue {
+  position: absolute;
+  top: 1100px;
+  left: 550px;
+  background-color: #3882f6;
+  height: 100px;
+  width: 700px;
+  border-radius: 5px;
+}
