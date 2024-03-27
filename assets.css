@@ -89,7 +89,7 @@ body {
 .titles2,
 .titles3,
 .titles4 {
-  margin-left: 7.5rem;
+  margin-left: 6rem;
   font-size: 18px;
   text-align: center;
   display: flex;
@@ -98,7 +98,7 @@ body {
 .container2 {
   display: flex;
   justify-content: center;
-  margin-right: 13rem;
+  margin-right: 9rem;
   margin-top: 1rem;
 }
 .container1 {
@@ -123,21 +123,63 @@ body {
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
-  margin-right: 5rem;
+  margin-right: 3rem;
+  margin-left: 2px;
 }
 .thor {
   font-size: 36px;
   color: #1f2937;
   font-style: italic;
-  font-family: Arial;
-  font-weight: 100;
   margin-left: 18rem;
   margin-top: 25rem;
+  font-weight: 400;
+  font-family: Arial;
 }
 .thor1 {
   font-style: italic;
   font-family: Arial;
   font-weight: 700;
-  margin-left: 58rem;
+  margin-left: 50rem;
+  font-size: 29px;
+}
+.blue {
+  margin-top: 15rem;
+  margin-left: 8rem;
+  background-color: #3882f6;
+  width: 1100px;
+  height: 180px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calls {
+  font-size: 25px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 16rem;
+  margin-top: -8rem;
+  font-weight: 700;
+}
+.signup {
   font-size: 18px;
+  color: white;
+  margin-left: 16rem;
+}
+.logo1 {
+  font-size: 20px;
+  color: white;
+  margin-left: 62.5rem;
+  margin-top: -2rem;
+  font-weight: 500;
+}
+.pic1 {
+  margin-left: 60rem;
+  margin-top: -2rem;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  width: 135px;
+  height: 37px;
+  border-radius: 5px;
 }
